@@ -1,8 +1,11 @@
 .photo img{
-    width: 80%;
+    width: 100%;
 }
 .right{
     width: 100%;
+}
+.right-side img{
+    float: none;
 }
 .left{
     width: 100%;

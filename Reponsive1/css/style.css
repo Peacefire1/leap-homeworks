@@ -25,6 +25,7 @@
     background-color: grey;
     width: 30%;
     padding: 20px;
+    border-radius: 20px;
 }
 .main{
     display: flex;
