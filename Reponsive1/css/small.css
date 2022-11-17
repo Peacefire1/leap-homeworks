@@ -13,3 +13,8 @@
 .main{
     display: inline;
 }
+.photo{
+    max-width: 1840px;
+    display: flex;
+    flex-wrap: wrap;
+}

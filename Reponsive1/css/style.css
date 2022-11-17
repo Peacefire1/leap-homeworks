@@ -6,9 +6,13 @@
     width: 100%;
     margin: auto;
 }
-
+.photo{
+    max-width: 1840px;
+    display: flex;
+    justify-content: space-between;
+}
 .photo img{
-    width: 15%;
+    width: 16%;
     border-radius: 10px;
 }
 .right-side img{
@@ -26,6 +30,7 @@
     width: 30%;
     padding: 20px;
     border-radius: 20px;
+    margin-top: 10px;
 }
 .main{
     display: flex;
