@@ -7,3 +7,7 @@
 .text{
     width: 100%;
 }
+.bot{
+    display: flex;
+    flex-direction: column-reverse;
+}
