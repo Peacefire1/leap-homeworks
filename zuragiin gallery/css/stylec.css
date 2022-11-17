@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1350px;
+    width: 100%;
+    margin: auto;
+}
+.cover{
+    background: url(../img/cover.avif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    color: aliceblue;
+    padding: 10%;
+    font-size: 1rem;
+}
+h1{
+    font-size: 3rem;
+}
+p{
+    font-size: 2rem;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.images img{
+    width: 23%;
+    height: 250px;
+    margin: 5px;
+    border-radius: 10px;
+}
