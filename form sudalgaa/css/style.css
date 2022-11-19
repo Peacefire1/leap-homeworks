@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+}
+p{
+    margin: 0;
+    margin-bottom: 30px;
+}
+.wall{
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    background: url(../img/wall.avif);
+    background-repeat: no-repeat;
+}
+.multiply{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgb(219, 43, 43),rgb(71, 38, 192));
+    opacity: 50%;
+}
+.head{
+    padding-top: 30px;
+    color: white;
+}
+.head p {
+    text-align: center;
+}
+.main{
+    height: 70vh;
+    background-color: rgb(112, 10, 180);
+    padding: 10px 50px;
+    color: white;
+}
+.up{
+    margin-bottom: 30px;
+    border: solid 1px white;
+}
+input{
+    width: 100%;
+    border: solid 2px green;
+}
+select{
+    width: 100%;
+}
+
