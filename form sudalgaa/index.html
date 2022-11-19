@@ -8,22 +8,22 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <form action="" class="wall">
+    <form action="#" method="post" class="wall">
         <div class="multiply">
             <div class="container">
                 <div class="head">
                     <h1>Social media хэрэглэгчдийн судалгаа</h1>
                     <p>Судалгаанд оролцсон таньд баярлалаа.</p>
                 </div>
-                <div class="main">
-                    <p>Ерөнхий мэдээлэл</p>
+                <fieldset class="main">
+                    <legend>Ерөнхий мэдээлэл</legend>
                     <div class="up">
                         Нэр <br>
-                        <input type="'text'" placeholder="Username"><br>
+                        <input type="'text'" placeholder="Username" required><br>
                         E-mail <br>
                         <input type="email" placeholder="E-mail" required><br>
                         Нас<br>
-                        <input type="number" placeholder="0">
+                        <input type="number" placeholder="0" required>
                     </div>
                     <p>Social media</p>
                     <div>
@@ -35,11 +35,29 @@
                             <option value="">1-2tsag</option>
                             <option value="">1-2tsag</option>
                         </select>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, pariatur? <br>
+                        Та онлайнаар худалдан авалт хйих, дэлгүүр орж худалдан авалт хийхийн альныг илүүд үзэх вэ? <br>
+                        <input type="radio" name="sanal" id="sanal"> Онлайн худалдан аюалт <br>
+                        <input type="radio" name="sanal" id="sanal"> Дэлгүүр орж худалдан авалт хийх <br>
+                        <br>
+                        Та ямар social media platform ашигладаг вэ? <br>
+                        <input type="checkbox" name="ask" id="sanal"> Facebook <br>
+                        <input type="checkbox" name="ask" id="sanal"> Facebook <br>
+                        <input type="checkbox" name="ask" id="sanal"> Facebook <br>
+                        <input type="checkbox" name="ask" id="sanal"> Facebook <br>
+                        <input type="checkbox" name="ask" id="sanal"> Facebook <br>
+                        <input type="checkbox" name="ask" id="sanal"> Facebook <br>
+                        <input type="checkbox" name="ask" id="sanal"> Facebook <br>
+                        <input type="checkbox" name="ask" id="sanal"> Facebook <br>
+                        <input type="checkbox" name="ask" id="sanal"> Facebook <br>
+                        Санал хүсэлт <br>
+                        
+                        <textarea name="" id="" cols="65" rows="10"></textarea> <br>
+                        <input type="submit" value="Илгээх">
+
                         
 
                     </div>
-                </div>
+                </fieldset>
             </div>
         </div>
     </form>
