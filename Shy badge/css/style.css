@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: grey;
+    color: aliceblue;
+}
+.circle{
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    top: -20px;
+    right: -15px;
+}
+
+.center:hover .circle{
+    top: 20px;
+    right: 100px;
+    transition: .5s;
+    z-index: -99;
+}
+.center:hover{
+    background-color: red;
+
+}
