@@ -60,5 +60,39 @@ console.log(ten);
 //3-r bodlogo
 // if … else ашиглан myAge болон yourAge-ийн утгыг харьцуул. Харьцуулалт дээр үндэслэн үр дүнг консол руу хөгшин (би эсвэл та) гэж тэмдэглэнэ үү. Насыг оруулахын тулд prompt("Насаа оруулна уу:")-г ашиглана уу.
 console.log("Assignment 3-r bodlogo")
+let myAge = 24;
+let yourAge = Number(prompt("Give me your age"));
+if(myAge < yourAge){
+    console.log("ta nadaas ah ym bn");
+}else if(myAge == yourAge){
+    console.log("2uulaa jiytsuu ym bn");
+}else if(myAge > yourAge){
+    console.log("bi uuruus cin ah ym bn");
+}
+
+// 4-r bodlogo Амралтын өдөр эсвэл ажлын өдөр эсэхийг шалгаарай.
+
+console.log("Assigments 4-r bodlogo");
+
+let workday = Number(prompt("Heddeh udur uu toogoor oruul nuu! \n 1-7"));
+
+if(workday >= 1 && workday <= 5 ){
+    console.log("Workday")
+}else if(workday == 6 || 7 == workday){
+    console.log("weekend")
+}
+
+
+//5-r bodlogo Хэрэглэгчээс цаг оруулах, цаг тутамд үнэлгээ өгөх скрипт бичээрэй. Тухайн хүний цалинг тооцно уу
+
+console.log("Assigments 5-r bodlogo");
+
+let hours = 40;
+let ratePerHour = 28;
+
+if(hours == 40 ){
+    console.log()
+}
+
 
 
