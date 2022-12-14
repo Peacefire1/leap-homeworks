@@ -96,7 +96,7 @@ console.log(sum);
 
 console.log("5")
 
-let N = 10
+let N = Number(prompt("give me number"));
 let A = 0;
 let sumA = 0;
 while(A <= N){
@@ -105,5 +105,37 @@ while(A <= N){
     A++
 }
 console.log(sumA)
+
+console.log("6")
+
+
+let inputValue= Number(prompt("too"));
+let isprime=inputValue==1? false:true;
+
+for(let i=2;i<inputValue;i++){
+  inputValue%i==0? isprime*=false :isprime*=true;
+};
+
+console.log(`${inputValue} is ${isprime? 'prime':'not prime'} number`);
+
+
+console.log("7")
+
+// let1 firsNumber = Number(prompt("first number"));
+// let secondNumber = Number(prompt("Second number"));
+let x = 5;
+let aa = " ";
+let i=0;
+let j =1;
+while(i <= 5){
+    while(j <= x){
+        aa = aa +j
+        j++
+        console.log(aa)
+    }
+    i++
+}
+
+
 
 
