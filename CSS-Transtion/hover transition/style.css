@@ -1,0 +1,18 @@
+.blue{
+    width: 150px;
+    height: 100px;
+    background-color: blue;
+}
+.green{
+    width: 150px;
+    height: 100px;
+    background-color: green;
+}
+.green:hover{
+    width: 100%;
+    transition: 1s;
+}
+.blue:active{
+    width: 100%;
+    transition: 1s;
+}
