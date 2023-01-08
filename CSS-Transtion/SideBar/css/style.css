@@ -1,0 +1,53 @@
+.col{
+    width: 200px;
+    height: 500px;
+    background-color: black;
+    padding: 10px 0px;
+    opacity: 30%;
+}
+.col:hover{
+    width: 50%;
+    opacity: 100%;
+}
+.uls{
+    background-color: green;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.uls:hover{
+    background-color: aliceblue;
+    color: black;
+    font-size: 30px;
+}
+.niigem:hover{
+    background-color: aliceblue;
+    color: black;
+    font-size: 30px;
+}
+.sport:hover{
+    background-color: aliceblue;
+    color: black;
+    font-size: 30px;
+}
+.niigem{
+    background-color: green;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.sport{
+    background-color: green;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
