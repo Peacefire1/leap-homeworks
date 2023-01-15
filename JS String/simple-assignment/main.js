@@ -39,3 +39,4 @@ console.log(`Намайг ${lastName} -ийн ${firstName} гэдэг. I live in
 
 console.log("1 2 3 4 5 \n2 3 4 5 1 \n3 4 5 2 1 \n4 5 1 2 3 \n5 1 2 3 4");
 
+// simpel done 
